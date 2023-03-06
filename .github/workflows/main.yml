@@ -4,6 +4,7 @@ on:
  push:
     branches:
       - studenci
+      - main
 
 env:
   USER: jhkwapisz
