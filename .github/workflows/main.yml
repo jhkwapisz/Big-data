@@ -3,7 +3,7 @@ name: Pull private repo
 on:
   push:
     branches:
-      - main
+      - studenci
 
 env:
   USER: jhkwapisz
