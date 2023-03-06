@@ -1,7 +1,8 @@
 name: Pull private repo
 
 on:
-  push:
+  pull_request:
+    types: [closed]
     branches:
       - studenci
 
