@@ -21,13 +21,13 @@ jobs:
       with:
         repository: ${{env.USER}}/${{ env.PRIVATE_REPO_NAME }}
         ref: studenci
-        token: ${{ secrets.STUDENCI }}
+        token: ${{ secrets.PAT }}
         fetch-depth: 0
     
     - name: Push to Public Repo
       uses: ad-m/github-push-action@master
       with:
           branch: studenci
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.PAT }}
           force: true
           repository: jhkwapisz/Big-Data-studenci
