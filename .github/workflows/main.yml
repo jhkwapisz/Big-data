@@ -32,3 +32,4 @@ jobs:
           github_token: ${{ secrets.PAT }}
           force: true
           repository: jhkwapisz/Big-Data-studenci
+
